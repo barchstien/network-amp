@@ -1,4 +1,4 @@
-update=Mon 16 Feb 2015 23:26:35 CET
+update=Wed 25 Feb 2015 10:29:02 CET
 version=1
 last_client=kicad
 [cvpcb]
@@ -40,8 +40,6 @@ LibName29=contrib
 LibName30=valves
 LibName31=lib/audio_pi
 LibName32=raspberrypi-gpio/raspberrypi-gpio-cache
-[general]
-version=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -62,3 +60,5 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.09999999999999999
 BoardOutlineThickness=0.09999999999999999
 ModuleOutlineThickness=0.15
+[general]
+version=1
