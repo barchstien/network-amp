@@ -1,0 +1,13 @@
+
+_ last check schematic... done
+_ last check pcb... done
+_ re-generate layers, drill, BOM, assembly coordinate
+_ last check generated files
+
+
+
+
+_ platform to promote, kickstarter linked
+    just do it on kickstarter page, take example o, xisting projects, show past projects, list challenges, present team
+
+_ 3.3VDAC from amp v+ ??  NO !

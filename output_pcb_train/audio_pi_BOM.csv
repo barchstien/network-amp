@@ -1,0 +1,35 @@
+Reference, Value, SUPPLIER, SUPPLIER PART NO., Comment
+C22,0.1uf,Farnell,1759361,PCB Train free component stock
+C25,0.1uf,Farnell,1759361,PCB Train free component stock
+C30,0.1uf,Farnell,1759361,PCB Train free component stock
+C31,0.1uf,Farnell,1759361,PCB Train free component stock
+R9,100k,Farnell,2129810,PCB Train free component stock
+C42,100nf,Farnell,1759361,PCB Train free component stock
+R11,10k,Farnell,2129728,PCB Train free component stock
+R12,10k,Farnell,2129728,PCB Train free component stock
+R13,10k,Farnell,2129728,PCB Train free component stock
+R14,10k,Farnell,2129728,PCB Train free component stock
+R15,10k,Farnell,2129728,PCB Train free component stock
+R16,10k,Farnell,2129728,PCB Train free component stock
+R17,10k,Farnell,2129728,PCB Train free component stock
+R8,10k,Farnell,2129728,PCB Train free component stock
+C33,10nf,Farnell,1759350,PCB Train free component stock
+C34,1uf,Farnell,1759454,PCB Train free component stock
+C36,1uf,Farnell,1759454,PCB Train free component stock
+C39,1uf,Farnell,1759454,PCB Train free component stock
+C40,1uf,Farnell,1759454,PCB Train free component stock
+C20,2.2nf,Farnell,1759341,PCB Train free component stock
+C21,2.2nf,Farnell,1759341,PCB Train free component stock
+C24,2.2uf,Farnell,2310423,PCB Train free component stock
+C26,2.2uf,Farnell,2310423,PCB Train free component stock
+R6,470R,Farnell,2129621,PCB Train free component stock
+R7,470R,Farnell,2129621,PCB Train free component stock
+R10,47k,Farnell,2129783,PCB Train free component stock
+U3,IL715,Farnell,9570632,
+U2,IL717,Farnell,9570659,
+U5,LP5907,Digikey,296-38557-1-ND,
+U6,LP5907,Digikey,296-38557-1-ND,
+Q3,MMBF170,Farnell,9845399,
+Q4,MMBF170,Farnell,9845399,
+Q5,MMBF170,Farnell,9845399,
+U1,PCM5122,Farnell,2307931,

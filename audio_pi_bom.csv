@@ -1,0 +1,105 @@
+Reference, Value, Footprint, Datasheet, e44.com, SUPPLIER, SUPPLIER PART NO., Comment
+amp_left1,LM3886T,lib:TO220-11,,LM3886T,,,
+U1,PCM5122,Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm,,,Farnell,2307931,
+R2,10k,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,MA10K0,,,
+C8,100nf,Capacitors_ThroughHole:Capacitor6MMDiscRM5,,CC5100NF,,,
+C3,100nf,Capacitors_ThroughHole:Capacitor6MMDiscRM5,,CC5100NF,,,
+C4,10uf,Discret:C1V7,,CHR10100,,,
+C7,10uf,Discret:C1V7,,CHR10100,,,
+amp_left_pot1,10k,Discret:RV2X4,,CA9V10K,,,
+amp_left_spk1,Terminal_block_2,Connect:AK300-2,,SCREW02BL,,,
+C2,220pf,Capacitors_ThroughHole:Capacitor6MMDiscRM5,,CC5220PF/500,,,
+R1,1k,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,MA1K0,,,
+amp_left_Rfdbk1,20k,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,MA20K0,,,
+amp_left_Rin1,1k,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,MA1K0,,,
+R4,10k,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,MA10K0,,,
+C16,100nf,Capacitors_ThroughHole:Capacitor6MMDiscRM5,,CC5100NF,,,
+C11,100nf,Capacitors_ThroughHole:Capacitor6MMDiscRM5,,CC5100NF,,,
+C15,10uf,Discret:C1V7,,CHR10100,,,
+amp_right_pot1,10k,Discret:RV2X4,,CA9V10K,,,
+amp_right_spk1,Terminal_block_2,Connect:AK300-2,,SCREW02BL,,,
+C10,220pf,Capacitors_ThroughHole:Capacitor6MMDiscRM5,,CC5220PF/500,,,
+R3,1k,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,MA1K0,,,
+amp_right_Rfdbk1,20k,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,MA20K0,,,
+amp_right_Rin1,1k,Resistors_ThroughHole:Resistor_Horizontal_RM10mm,,MA1K0,,,
+TB_main_input1,Terminal_block_3,Connect:AK300-3,,SCREW03BL,,,
+C17,100nf,Capacitors_ThroughHole:Capacitor6MMDiscRM5,,CCM100NF,,,
+D2,400v 6a p6,Diodes_ThroughHole:Diode_P600_Vertical_KathodeUp,,P600G,,,
+D1,400v 6a p6,Diodes_ThroughHole:Diode_P600_Vertical_KathodeUp,,P600G,,,
+R5,10_5W,Resistors_ThroughHole:Resistor_Horizontal_RM25mm,,vrac,,,
+TB_transfo_primary1,Terminal_block_2,Connect:AK300-2,,SCREW02BL,,,
+TB_transfo_secondary1,Terminal_block_4,Connect:AK300-4,,2xSCREW02BL,,,
+D4,400v 12a,Connect:bornier4,,KBU12G,,,
+D3,400v 12a,Connect:bornier4,,KBU12G,,,
+C18,4700uF,Capacitors_ThroughHole:Capacitor26x45RM10,,CHR470080-85,,,
+C28,4700uF,Capacitors_ThroughHole:Capacitor26x45RM10,,CHR470080-85,,,
+C19,4700uF,Capacitors_ThroughHole:Capacitor26x45RM10,,CHR470080-85,,,
+C29,4700uF,Capacitors_ThroughHole:Capacitor26x45RM10,,CHR470080-85,,,
+U4,LM2576-5.0,Pentawatts:Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D,,LM2576T5,,,
+C32,100uf,Capacitors_ThroughHole:Capacitor10x21RM5,,CHR100100,,,
+D8,1N5822,Diodes_ThroughHole:Diode_DO-41_SOD81_Vertical_KathodeUp,,1N5822,,,
+C35,2200uf,Capacitors_ThroughHole:Capacitor16x25RM7.5,,CHR220035,,,
+L1,100uH 5A,lib:inductance,,HFSECO5/100,,,
+U5,LP5907,SMD_Packages:SOT-23-5,,,Digikey,296-38557-1-ND,
+K2,RELAY_2RT,lib:Relais_double,,F3022-5,,,
+K1,RELAY_1RT,lib:Relay_Power,,F3611-5,,,
+Q1,IRF540N,Discret:TO220_VERT,,IRF540NPBF,,,
+Q2,IRF540N,Discret:TO220_VERT,,IRF540NPBF,,,
+P2,Volume_left,Pin_Headers:Pin_Header_Straight_1x03,,BTWM3,,,
+P3,Volume_right,Pin_Headers:Pin_Header_Straight_1x03,,BTWM3,,,
+C37,100uf,Capacitors_ThroughHole:Capacitor10x21RM5,,CHR100100,,,
+D9,TVS 1500w 400v do201,Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10,,1.5KE400CA,,,
+D5,TVS 1500w 400v do201,Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10,,1.5KE400CA,,,
+C27,100uf,Capacitors_ThroughHole:Capacitor10x21RM5,,CHR100100,,,
+D6,400v 6a p6,Diodes_ThroughHole:Diode_P600_Horizontal,,P600G,,,
+D7,400v 6a p6,Diodes_ThroughHole:Diode_P600_Horizontal,,P600G,,,
+F1,5A,Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm,,FUSE/HL*,,,
+TB_chassis_earth1,Terminal_block_2,Connect:AK300-2,,SCREW02BL,,,
+C22,0.1uf,Capacitors_SMD:C_1206,,,Farnell,1759361,PCB Train free component stock
+C34,1uf,Capacitors_SMD:C_1206,,,Farnell,1759454,PCB Train free component stock
+C26,2.2uf,Capacitors_SMD:C_1206,,,Farnell,2310423,PCB Train free component stock
+C24,2.2uf,Capacitors_SMD:C_1206,,,Farnell,2310423,PCB Train free component stock
+R6,470R,Resistors_SMD:R_1206,,,Farnell,2129621,PCB Train free component stock
+R7,470R,Resistors_SMD:R_1206,,,Farnell,2129621,PCB Train free component stock
+C20,2.2nf,Capacitors_SMD:C_1206,,,Farnell,1759341,PCB Train free component stock
+C23,10uf,Discret:C1V7,,CHR10100,,,
+C30,0.1uf,Capacitors_SMD:C_1206,,,Farnell,1759361,PCB Train free component stock
+C31,0.1uf,Capacitors_SMD:C_1206,,,Farnell,1759361,PCB Train free component stock
+R8,10k,Resistors_SMD:R_1206,,,Farnell,2129728,PCB Train free component stock
+U2,IL717,Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm,,,Farnell,9570659,
+P1,CONN_01X04,Pin_Headers:Pin_Header_Straight_1x04,,header pin,,,
+R10,47k,Resistors_SMD:R_1206,,,Farnell,2129783,PCB Train free component stock
+R9,100k,Resistors_SMD:R_1206,,,Farnell,2129810,PCB Train free component stock
+R11,10k,Resistors_SMD:R_1206,,,Farnell,2129728,PCB Train free component stock
+C33,10nf,Capacitors_SMD:C_1206,,,Farnell,1759350,PCB Train free component stock
+C12,10uf,Discret:C1V7,,CHR10100,,,
+C36,1uf,Capacitors_SMD:C_1206,,,Farnell,1759454,PCB Train free component stock
+C25,0.1uf,Capacitors_SMD:C_1206,,,Farnell,1759361,PCB Train free component stock
+C21,2.2nf,Capacitors_SMD:C_1206,,,Farnell,1759341,PCB Train free component stock
+U3,IL715,Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm,,,Farnell,9570632,
+amp_right1,LM3886T,lib:TO220-11,,LM3886T,,,
+C9,22uf,Capacitors_ThroughHole:Capacitor8x13RM3.8,,CHR22100,,,
+C1,22uf,Capacitors_ThroughHole:Capacitor8x13RM3.8,,CHR22100,,,
+Q3,MMBF170,SMD_Packages:SOT-23,,,Farnell,9845399,
+Q4,MMBF170,SMD_Packages:SOT-23,,,Farnell,9845399,
+Q5,MMBF170,SMD_Packages:SOT-23,,,Farnell,9845399,
+R12,10k,Resistors_SMD:R_1206,,,Farnell,2129728,PCB Train free component stock
+R13,10k,Resistors_SMD:R_1206,,,Farnell,2129728,PCB Train free component stock
+R14,10k,Resistors_SMD:R_1206,,,Farnell,2129728,PCB Train free component stock
+R15,10k,Resistors_SMD:R_1206,,,Farnell,2129728,PCB Train free component stock
+R17,10k,Resistors_SMD:R_1206,,,Farnell,2129728,PCB Train free component stock
+R16,10k,Resistors_SMD:R_1206,,,Farnell,2129728,PCB Train free component stock
+C38,10uf,Discret:C1V7,,CHR10100,,,
+FAV_1,CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02,,BTWM2,,,
+U6,LP5907,SMD_Packages:SOT-23-5,,,Digikey,296-38557-1-ND,
+C39,1uf,Resistors_SMD:R_1206,,,Farnell,1759454,PCB Train free component stock
+C40,1uf,Resistors_SMD:R_1206,,,Farnell,1759454,PCB Train free component stock
+ONOFF_1,CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02,,BTWM2,,,
+J8_1,RPI_B+_J8_header,Pin_Headers:Pin_Header_Straight_2x20,
+C41,100uf,Capacitors_ThroughHole:Capacitor10x21RM5,,CHR100100,,,
+C42,100nf,Capacitors_SMD:C_1206,,,Farnell,1759361,PCB Train free component stock
+PWM1_1,CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02,,BTWM2,,,
+Q7,IRF540N,Discret:TO220_VERT,,IRF540NPBF,,,
+LED2,CONN_01X02,Pin_Headers:Pin_Header_Straight_1x02,,BTWM2,,,
+P4,CONN_01X05,Pin_Headers:Pin_Header_Straight_1x05,
+I2C1_1,CONN_01X04,Pin_Headers:Pin_Header_Straight_1x04,

@@ -1,0 +1,2170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/bastien/Documents/radioBox-2/kicad/audio_pi/audio_pi.sch</source>
+    <date>Mon 16 Feb 2015 23:00:40 CET</date>
+    <tool>Eeschema (2015-01-19 BZR 5380)-product</tool>
+  </design>
+  <components>
+    <comp ref="amp_left1">
+      <value>LM3886T</value>
+      <footprint>lib:TO220-11</footprint>
+      <fields>
+        <field name="e44.com">LM3886T</field>
+      </fields>
+      <libsource lib="audio" part="LM3886T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BDB782</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>PCM5122</value>
+      <footprint>Housings_SSOP:TSSOP-28_4.4x9.7mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2307931</field>
+      </fields>
+      <libsource lib="audio_pi" part="PCM5122"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BDB95C</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="e44.com">MA10K0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BDBA63</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nf</value>
+      <footprint>Capacitors_ThroughHole:Capacitor6MMDiscRM5</footprint>
+      <fields>
+        <field name="e44.com">CC5100NF</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BDBA74</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nf</value>
+      <footprint>Capacitors_ThroughHole:Capacitor6MMDiscRM5</footprint>
+      <fields>
+        <field name="e44.com">CC5100NF</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BDC630</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uf</value>
+      <footprint>Discret:C1V7</footprint>
+      <fields>
+        <field name="e44.com">CHR10100</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BDC68F</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uf</value>
+      <footprint>Discret:C1V7</footprint>
+      <fields>
+        <field name="e44.com">CHR10100</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BDCD6E</tstamp>
+    </comp>
+    <comp ref="amp_left_pot1">
+      <value>10k</value>
+      <footprint>Discret:RV2X4</footprint>
+      <fields>
+        <field name="e44.com">CA9V10K</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BDE651</tstamp>
+    </comp>
+    <comp ref="amp_left_spk1">
+      <value>Terminal_block_2</value>
+      <footprint>Connect:AK300-2</footprint>
+      <fields>
+        <field name="e44.com">SCREW02BL</field>
+      </fields>
+      <libsource lib="audio_pi" part="Terminal_block_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BDE8FF</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>220pf</value>
+      <footprint>Capacitors_ThroughHole:Capacitor6MMDiscRM5</footprint>
+      <fields>
+        <field name="e44.com">CC5220PF/500</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BDF104</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="e44.com">MA1K0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BDF9EC</tstamp>
+    </comp>
+    <comp ref="amp_left_Rfdbk1">
+      <value>20k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="e44.com">MA20K0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BDFA7D</tstamp>
+    </comp>
+    <comp ref="amp_left_Rin1">
+      <value>1k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="e44.com">MA1K0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BDFBB4</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="e44.com">MA10K0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BFA751</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>100nf</value>
+      <footprint>Capacitors_ThroughHole:Capacitor6MMDiscRM5</footprint>
+      <fields>
+        <field name="e44.com">CC5100NF</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BFA757</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nf</value>
+      <footprint>Capacitors_ThroughHole:Capacitor6MMDiscRM5</footprint>
+      <fields>
+        <field name="e44.com">CC5100NF</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BFA777</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10uf</value>
+      <footprint>Discret:C1V7</footprint>
+      <fields>
+        <field name="e44.com">CHR10100</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BFA79A</tstamp>
+    </comp>
+    <comp ref="amp_right_pot1">
+      <value>10k</value>
+      <footprint>Discret:RV2X4</footprint>
+      <fields>
+        <field name="e44.com">CA9V10K</field>
+      </fields>
+      <libsource lib="device" part="POT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BFA7A4</tstamp>
+    </comp>
+    <comp ref="amp_right_spk1">
+      <value>Terminal_block_2</value>
+      <footprint>Connect:AK300-2</footprint>
+      <fields>
+        <field name="e44.com">SCREW02BL</field>
+      </fields>
+      <libsource lib="audio_pi" part="Terminal_block_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BFA7AA</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>220pf</value>
+      <footprint>Capacitors_ThroughHole:Capacitor6MMDiscRM5</footprint>
+      <fields>
+        <field name="e44.com">CC5220PF/500</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BFA7BC</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="e44.com">MA1K0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BFA7CD</tstamp>
+    </comp>
+    <comp ref="amp_right_Rfdbk1">
+      <value>20k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="e44.com">MA20K0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BFA7D3</tstamp>
+    </comp>
+    <comp ref="amp_right_Rin1">
+      <value>1k</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM10mm</footprint>
+      <fields>
+        <field name="e44.com">MA1K0</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BFA7D9</tstamp>
+    </comp>
+    <comp ref="TB_main_input1">
+      <value>Terminal_block_3</value>
+      <footprint>Connect:AK300-3</footprint>
+      <fields>
+        <field name="e44.com">SCREW03BL</field>
+      </fields>
+      <libsource lib="audio_pi" part="Terminal_block_3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BFBB66</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nf</value>
+      <footprint>Capacitors_ThroughHole:Capacitor6MMDiscRM5</footprint>
+      <fields>
+        <field name="e44.com">CCM100NF</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BF9B45</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>400v 6a p6</value>
+      <footprint>Diodes_ThroughHole:Diode_P600_Vertical_KathodeUp</footprint>
+      <fields>
+        <field name="e44.com">P600G</field>
+      </fields>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BF9BBC</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>400v 6a p6</value>
+      <footprint>Diodes_ThroughHole:Diode_P600_Vertical_KathodeUp</footprint>
+      <fields>
+        <field name="e44.com">P600G</field>
+      </fields>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BF9C5D</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10_5W</value>
+      <footprint>Resistors_ThroughHole:Resistor_Horizontal_RM25mm</footprint>
+      <fields>
+        <field name="e44.com">vrac</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BF9D11</tstamp>
+    </comp>
+    <comp ref="TB_transfo_primary1">
+      <value>Terminal_block_2</value>
+      <footprint>Connect:AK300-2</footprint>
+      <fields>
+        <field name="e44.com">SCREW02BL</field>
+      </fields>
+      <libsource lib="audio_pi" part="Terminal_block_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C11F73</tstamp>
+    </comp>
+    <comp ref="TB_transfo_secondary1">
+      <value>Terminal_block_4</value>
+      <footprint>Connect:AK300-4</footprint>
+      <fields>
+        <field name="e44.com">2xSCREW02BL</field>
+      </fields>
+      <libsource lib="audio_pi" part="Terminal_block_4"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C12ACE</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>400v 12a</value>
+      <footprint>Connect:bornier4</footprint>
+      <fields>
+        <field name="e44.com">KBU12G</field>
+      </fields>
+      <libsource lib="device" part="BRIDGE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C12E45</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>400v 12a</value>
+      <footprint>Connect:bornier4</footprint>
+      <fields>
+        <field name="e44.com">KBU12G</field>
+      </fields>
+      <libsource lib="device" part="BRIDGE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C1332C</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>4700uF</value>
+      <footprint>Capacitors_ThroughHole:Capacitor26x45RM10</footprint>
+      <fields>
+        <field name="e44.com">CHR470080-85</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C15F21</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>4700uF</value>
+      <footprint>Capacitors_ThroughHole:Capacitor26x45RM10</footprint>
+      <fields>
+        <field name="e44.com">CHR470080-85</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C16183</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>4700uF</value>
+      <footprint>Capacitors_ThroughHole:Capacitor26x45RM10</footprint>
+      <fields>
+        <field name="e44.com">CHR470080-85</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C1620E</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>4700uF</value>
+      <footprint>Capacitors_ThroughHole:Capacitor26x45RM10</footprint>
+      <fields>
+        <field name="e44.com">CHR470080-85</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C16297</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>LM2576-5.0</value>
+      <footprint>Pentawatts:Pentawatt_Neutral_Staggered_Verical_TO220-5-T05D</footprint>
+      <fields>
+        <field name="e44.com">LM2576T5</field>
+      </fields>
+      <libsource lib="audio_pi" part="LM2576-5.0"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C3B10C</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100uf</value>
+      <footprint>Capacitors_ThroughHole:Capacitor10x21RM5</footprint>
+      <fields>
+        <field name="e44.com">CHR100100</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C40178</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1N5822</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Vertical_KathodeUp</footprint>
+      <fields>
+        <field name="e44.com">1N5822</field>
+      </fields>
+      <libsource lib="device" part="DIODESCH"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C41762</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>2200uf</value>
+      <footprint>Capacitors_ThroughHole:Capacitor16x25RM7.5</footprint>
+      <fields>
+        <field name="e44.com">CHR220035</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C41A6D</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>100uH 5A</value>
+      <footprint>lib:inductance</footprint>
+      <fields>
+        <field name="e44.com">HFSECO5/100</field>
+      </fields>
+      <libsource lib="device" part="INDUCTOR_SMALL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C41AEE</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>LP5907</value>
+      <footprint>SMD_Packages:SOT-23-5</footprint>
+      <fields>
+        <field name="SUPPLIER">Digikey</field>
+        <field name="SUPPLIER PART NO.">296-38557-1-ND</field>
+      </fields>
+      <libsource lib="audio_pi" part="LP5907"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C43471</tstamp>
+    </comp>
+    <comp ref="K2">
+      <value>RELAY_2RT</value>
+      <footprint>lib:Relais_double</footprint>
+      <fields>
+        <field name="e44.com">F3022-5</field>
+      </fields>
+      <libsource lib="device" part="RELAY_2RT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C53BE2</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>RELAY_1RT</value>
+      <footprint>lib:Relay_Power</footprint>
+      <fields>
+        <field name="e44.com">F3611-5</field>
+      </fields>
+      <libsource lib="audio_pi" part="RELAY_1RT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C54755</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>IRF540N</value>
+      <footprint>Discret:TO220_VERT</footprint>
+      <fields>
+        <field name="e44.com">IRF540NPBF</field>
+      </fields>
+      <libsource lib="transistors" part="IRF540N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C4D68D</tstamp>
+    </comp>
+    <comp ref="Q2">
+      <value>IRF540N</value>
+      <footprint>Discret:TO220_VERT</footprint>
+      <fields>
+        <field name="e44.com">IRF540NPBF</field>
+      </fields>
+      <libsource lib="transistors" part="IRF540N"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C4D6E0</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>Volume_left</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <fields>
+        <field name="e44.com">BTWM3</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C641E5</tstamp>
+    </comp>
+    <comp ref="P3">
+      <value>Volume_right</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x03</footprint>
+      <fields>
+        <field name="e44.com">BTWM3</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X03"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C6425E</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>100uf</value>
+      <footprint>Capacitors_ThroughHole:Capacitor10x21RM5</footprint>
+      <fields>
+        <field name="e44.com">CHR100100</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C73771</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>TVS 1500w 400v do201</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <fields>
+        <field name="e44.com">1.5KE400CA</field>
+      </fields>
+      <libsource lib="device" part="TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C6F745</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>TVS 1500w 400v do201</value>
+      <footprint>Diodes_ThroughHole:Diode_DO-41_SOD81_Horizontal_RM10</footprint>
+      <fields>
+        <field name="e44.com">1.5KE400CA</field>
+      </fields>
+      <libsource lib="device" part="TVS"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C68F6C</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100uf</value>
+      <footprint>Capacitors_ThroughHole:Capacitor10x21RM5</footprint>
+      <fields>
+        <field name="e44.com">CHR100100</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C69549</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>400v 6a p6</value>
+      <footprint>Diodes_ThroughHole:Diode_P600_Horizontal</footprint>
+      <fields>
+        <field name="e44.com">P600G</field>
+      </fields>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C6CFE5</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>400v 6a p6</value>
+      <footprint>Diodes_ThroughHole:Diode_P600_Horizontal</footprint>
+      <fields>
+        <field name="e44.com">P600G</field>
+      </fields>
+      <libsource lib="device" part="DIODE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C6D97B</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>5A</value>
+      <footprint>Fuse_Holders_and_Fuses:Fuseholder5x20_horiz_SemiClosed_Casing10x25mm</footprint>
+      <fields>
+        <field name="e44.com">FUSE/HL*</field>
+      </fields>
+      <libsource lib="device" part="FUSE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C78BB3</tstamp>
+    </comp>
+    <comp ref="TB_chassis_earth1">
+      <value>Terminal_block_2</value>
+      <footprint>Connect:AK300-2</footprint>
+      <fields>
+        <field name="e44.com">SCREW02BL</field>
+      </fields>
+      <libsource lib="audio_pi" part="Terminal_block_2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C797C0</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">1759361</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C6E858</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>1uf</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">1759454</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C79B39</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>2.2uf</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2310423</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C7FCA1</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>2.2uf</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2310423</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C80A45</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>470R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2129621</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C81E7A</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>470R</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2129621</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C81F63</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>2.2nf</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">1759341</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C831E6</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>10uf</value>
+      <footprint>Discret:C1V7</footprint>
+      <fields>
+        <field name="e44.com">CHR10100</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C854E5</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">1759361</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C907DC</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">1759361</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C909BE</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2129728</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C946E4</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>IL717</value>
+      <footprint>Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">9570659</field>
+      </fields>
+      <libsource lib="audio_pi" part="IL717"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CA0343</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <fields>
+        <field name="e44.com">header pin</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CBAB35</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>47k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2129783</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CBAF43</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2129810</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CBB233</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2129728</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CBB2B2</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>10nf</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">1759350</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CC1D76</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>10uf</value>
+      <footprint>Discret:C1V7</footprint>
+      <fields>
+        <field name="e44.com">CHR10100</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BFA77D</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>1uf</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">1759454</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C7B0E8</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uf</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">1759361</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C84B4F</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>2.2nf</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">1759341</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C839EC</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>IL715</value>
+      <footprint>Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">9570632</field>
+      </fields>
+      <libsource lib="audio_pi" part="IL715"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54C9813F</tstamp>
+    </comp>
+    <comp ref="amp_right1">
+      <value>LM3886T</value>
+      <footprint>lib:TO220-11</footprint>
+      <fields>
+        <field name="e44.com">LM3886T</field>
+      </fields>
+      <libsource lib="audio" part="LM3886T"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54BFA74B</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>22uf</value>
+      <footprint>Capacitors_ThroughHole:Capacitor8x13RM3.8</footprint>
+      <fields>
+        <field name="e44.com">CHR22100</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CC81F3</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22uf</value>
+      <footprint>Capacitors_ThroughHole:Capacitor8x13RM3.8</footprint>
+      <fields>
+        <field name="e44.com">CHR22100</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>54CC861A</tstamp>
+    </comp>
+    <comp ref="Q3">
+      <value>MMBF170</value>
+      <footprint>SMD_Packages:SOT-23</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">9845399</field>
+      </fields>
+      <libsource lib="transistors" part="MMBF170"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54C510E7</tstamp>
+    </comp>
+    <comp ref="Q4">
+      <value>MMBF170</value>
+      <footprint>SMD_Packages:SOT-23</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">9845399</field>
+      </fields>
+      <libsource lib="transistors" part="MMBF170"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54C510EE</tstamp>
+    </comp>
+    <comp ref="Q5">
+      <value>MMBF170</value>
+      <footprint>SMD_Packages:SOT-23</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">9845399</field>
+      </fields>
+      <libsource lib="transistors" part="MMBF170"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54C510F5</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2129728</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54C510FC</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2129728</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54C51103</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2129728</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54C5110A</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2129728</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54C51111</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2129728</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54C51118</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">2129728</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54C5111F</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>10uf</value>
+      <footprint>Discret:C1V7</footprint>
+      <fields>
+        <field name="e44.com">CHR10100</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54C51173</tstamp>
+    </comp>
+    <comp ref="FAV_1">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <fields>
+        <field name="e44.com">BTWM2</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54C53556</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>LP5907</value>
+      <footprint>SMD_Packages:SOT-23-5</footprint>
+      <fields>
+        <field name="SUPPLIER">Digikey</field>
+        <field name="SUPPLIER PART NO.">296-38557-1-ND</field>
+      </fields>
+      <libsource lib="audio_pi" part="LP5907"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54C7D7C5</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>1uf</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">1759454</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54C7D7DE</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>1uf</value>
+      <footprint>Resistors_SMD:R_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">1759454</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54C7D7F3</tstamp>
+    </comp>
+    <comp ref="ONOFF_1">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <fields>
+        <field name="e44.com">BTWM2</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54CB9F26</tstamp>
+    </comp>
+    <comp ref="J8_1">
+      <value>RPI_B+_J8_header</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_2x20</footprint>
+      <libsource lib="audio_pi" part="RPI_B+_J8_header"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54CC9F41</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>100uf</value>
+      <footprint>Capacitors_ThroughHole:Capacitor10x21RM5</footprint>
+      <fields>
+        <field name="e44.com">CHR100100</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor_POL"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54CCA4A9</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>100nf</value>
+      <footprint>Capacitors_SMD:C_1206</footprint>
+      <fields>
+        <field name="SUPPLIER">Farnell</field>
+        <field name="SUPPLIER PART NO.">1759361</field>
+        <field name="Comment">PCB Train free component stock</field>
+      </fields>
+      <libsource lib="audio_pi" part="Capacitor"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54CB41E4</tstamp>
+    </comp>
+    <comp ref="PWM1_1">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <fields>
+        <field name="e44.com">BTWM2</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54CC2FFB</tstamp>
+    </comp>
+    <comp ref="Q7">
+      <value>IRF540N</value>
+      <footprint>Discret:TO220_VERT</footprint>
+      <fields>
+        <field name="e44.com">IRF540NPBF</field>
+      </fields>
+      <libsource lib="transistors" part="IRF540N"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54CC673E</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>CONN_01X02</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02</footprint>
+      <fields>
+        <field name="e44.com">BTWM2</field>
+      </fields>
+      <libsource lib="conn" part="CONN_01X02"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54CC6753</tstamp>
+    </comp>
+    <comp ref="P4">
+      <value>CONN_01X05</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x05</footprint>
+      <libsource lib="conn" part="CONN_01X05"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54CCE641</tstamp>
+    </comp>
+    <comp ref="I2C1_1">
+      <value>CONN_01X04</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x04</footprint>
+      <libsource lib="conn" part="CONN_01X04"/>
+      <sheetpath names="/audio_pi_page2/" tstamps="/54C4FD35/"/>
+      <tstamp>54DCFFF0</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="BRIDGE">
+      <description>Pont de Diodes</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BRIDGE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="DIODE">
+      <description>Diode simple</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="DIODESCH">
+      <description>Diode schottky</description>
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODESCH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="FUSE">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">FUSE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR_SMALL">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR_SMALL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="POT">
+      <description>Potentionmetre</description>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">POT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistance</description>
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="RELAY_2RT">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">RELAY_2RT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="T1" type="passive"/>
+        <pin num="3" name="R1" type="passive"/>
+        <pin num="5" name="C1" type="passive"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="12" name="C2" type="passive"/>
+        <pin num="14" name="R2" type="passive"/>
+        <pin num="16" name="T2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="TVS">
+      <description>Transient voltage suppressor diode (bi-directional)</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">TVS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="IRF540N">
+      <description>IRF540N, 100V Vds, 33A Id, HEXFET N-Channel MOSFET, TO220</description>
+      <docs>http://www.irf.com/product-info/datasheets/data/irf540n.pdf</docs>
+      <footprints>
+        <fp>TO220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">IRF540N</field>
+        <field name="Footprint">TO220</field>
+      </fields>
+      <pins>
+        <pin num="1" name="D" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="transistors" part="MMBF170">
+      <description>MMBF170, 60V Vds 0.5A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.fairchildsemi.com/ds/BS/BS170.pdf</docs>
+      <footprints>
+        <fp>SOT23*</fp>
+        <fp>SOT-23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">MMBF170</field>
+        <field name="Footprint">SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X02">
+      <footprints>
+        <fp>Pin_Header_Straight_1X02</fp>
+        <fp>Pin_Header_Angled_1X02</fp>
+        <fp>Socket_Strip_Straight_1X02</fp>
+        <fp>Socket_Strip_Angled_1X02</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X02</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X03">
+      <footprints>
+        <fp>Pin_Header_Straight_1X03</fp>
+        <fp>Pin_Header_Angled_1X03</fp>
+        <fp>Socket_Strip_Straight_1X03</fp>
+        <fp>Socket_Strip_Angled_1X03</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X04">
+      <footprints>
+        <fp>Pin_Header_Straight_1X04</fp>
+        <fp>Pin_Header_Angled_1X04</fp>
+        <fp>Socket_Strip_Straight_1X04</fp>
+        <fp>Socket_Strip_Angled_1X04</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X05">
+      <footprints>
+        <fp>Pin_Header_Straight_1X05</fp>
+        <fp>Pin_Header_Angled_1X05</fp>
+        <fp>Socket_Strip_Straight_1X05</fp>
+        <fp>Socket_Strip_Angled_1X05</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X05</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio" part="LM3886T">
+      <aliases>
+        <alias>LM3886TF</alias>
+      </aliases>
+      <description>LM3886, Single 68W Overture Seriers Audio Power Amplifier, with Mute Mode, TO220-11 (MultiWatt)</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm3886.pdf</docs>
+      <footprints>
+        <fp>TO*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM3886T</field>
+        <field name="Footprint">TO220-11</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V+" type="power_in"/>
+        <pin num="3" name="OUT" type="output"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="V+" type="power_in"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="MUTE" type="input"/>
+        <pin num="9" name="IN-" type="input"/>
+        <pin num="10" name="IN+" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_pi" part="Capacitor">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Capacitor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_pi" part="Capacitor_POL">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Capacitor_POL</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="input"/>
+        <pin num="2" name="-" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_pi" part="IL715">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IL715</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD1" type="power_in"/>
+        <pin num="2" name="GND1" type="power_in"/>
+        <pin num="3" name="In1" type="input"/>
+        <pin num="4" name="In2" type="input"/>
+        <pin num="5" name="In3" type="input"/>
+        <pin num="6" name="In4" type="input"/>
+        <pin num="7" name="nc" type="NotConnected"/>
+        <pin num="8" name="GND1" type="power_in"/>
+        <pin num="9" name="GND2" type="power_in"/>
+        <pin num="10" name="nc" type="NotConnected"/>
+        <pin num="11" name="Out4" type="output"/>
+        <pin num="12" name="Out3" type="output"/>
+        <pin num="13" name="Out2" type="output"/>
+        <pin num="14" name="Out1" type="output"/>
+        <pin num="15" name="GND2" type="power_in"/>
+        <pin num="16" name="VDD2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_pi" part="IL717">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">IL717</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD1" type="power_in"/>
+        <pin num="2" name="GND1" type="power_in"/>
+        <pin num="3" name="In1" type="input"/>
+        <pin num="4" name="In2" type="input"/>
+        <pin num="5" name="In3" type="input"/>
+        <pin num="6" name="Out4" type="output"/>
+        <pin num="7" name="nc" type="NotConnected"/>
+        <pin num="8" name="GND1" type="power_in"/>
+        <pin num="9" name="GND2" type="power_in"/>
+        <pin num="10" name="nc" type="NotConnected"/>
+        <pin num="11" name="In4" type="input"/>
+        <pin num="12" name="Out3" type="output"/>
+        <pin num="13" name="Out2" type="output"/>
+        <pin num="14" name="Out1" type="output"/>
+        <pin num="15" name="GND2" type="power_in"/>
+        <pin num="16" name="VDD2" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_pi" part="LM2576-5.0">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2576-5.0</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="Vout" type="power_out"/>
+        <pin num="3" name="Gnd" type="power_in"/>
+        <pin num="4" name="feedbck" type="input"/>
+        <pin num="5" name="~on" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_pi" part="LP5907">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LP5907</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Vin" type="power_in"/>
+        <pin num="2" name="Gnd" type="power_in"/>
+        <pin num="3" name="on" type="input"/>
+        <pin num="4" name="nc" type="NotConnected"/>
+        <pin num="5" name="Vout" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_pi" part="PCM5122">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCM5122</field>
+        <field name="Footprint">MODULE</field>
+        <field name="Datasheet">DOCUMENTATION</field>
+      </fields>
+      <pins>
+        <pin num="1" name="CPVDD" type="power_in"/>
+        <pin num="2" name="CAPP" type="output"/>
+        <pin num="3" name="CPGND" type="power_in"/>
+        <pin num="4" name="CAPM" type="output"/>
+        <pin num="5" name="VNEG" type="output"/>
+        <pin num="6" name="OUTL" type="output"/>
+        <pin num="7" name="OUTR" type="output"/>
+        <pin num="8" name="AVDD" type="power_in"/>
+        <pin num="9" name="AGND" type="power_in"/>
+        <pin num="10" name="VCOM" type="output"/>
+        <pin num="11" name="MOSI" type="input"/>
+        <pin num="12" name="MC" type="input"/>
+        <pin num="13" name="GPIO5" type="input"/>
+        <pin num="14" name="GPIO4" type="input"/>
+        <pin num="15" name="GPIO3" type="input"/>
+        <pin num="16" name="GPIO2" type="input"/>
+        <pin num="17" name="MODE1" type="input"/>
+        <pin num="18" name="MS(MODE2)" type="input"/>
+        <pin num="19" name="GPIO6" type="input"/>
+        <pin num="20" name="SCK" type="input"/>
+        <pin num="21" name="BCK" type="input"/>
+        <pin num="22" name="DIN" type="input"/>
+        <pin num="23" name="LRCK" type="input"/>
+        <pin num="24" name="MISO" type="input"/>
+        <pin num="25" name="XSMT" type="input"/>
+        <pin num="26" name="LDOO" type="power_in"/>
+        <pin num="27" name="DGND" type="power_in"/>
+        <pin num="28" name="DVDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_pi" part="RELAY_1RT">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">RELAY_1RT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="T1" type="passive"/>
+        <pin num="3" name="R1" type="passive"/>
+        <pin num="5" name="C1" type="passive"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_pi" part="RPI_B+_J8_header">
+      <fields>
+        <field name="Reference">J8_</field>
+        <field name="Value">RPI_B+_J8_header</field>
+      </fields>
+      <pins>
+        <pin num="1" name="3V3" type="power_out"/>
+        <pin num="2" name="5V" type="power_in"/>
+        <pin num="3" name="GPIO2_SDA1_I2C" type="BiDi"/>
+        <pin num="4" name="5V" type="power_in"/>
+        <pin num="5" name="GPIO3_SCL1_I2C" type="BiDi"/>
+        <pin num="6" name="Ground" type="power_in"/>
+        <pin num="7" name="GPIO4" type="BiDi"/>
+        <pin num="8" name="GPIO14_TXD0" type="BiDi"/>
+        <pin num="9" name="Ground" type="power_in"/>
+        <pin num="10" name="GPIO15_RXD0" type="BiDi"/>
+        <pin num="11" name="GPIO17" type="BiDi"/>
+        <pin num="12" name="GPIO18_PCM_BCK" type="BiDi"/>
+        <pin num="13" name="GPIO27" type="BiDi"/>
+        <pin num="14" name="Ground" type="power_in"/>
+        <pin num="15" name="GPIO22" type="BiDi"/>
+        <pin num="16" name="GPIO23" type="BiDi"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="GPIO24" type="BiDi"/>
+        <pin num="19" name="GPIO10_SPI_MOSI" type="BiDi"/>
+        <pin num="20" name="Ground" type="power_in"/>
+        <pin num="21" name="GPIO9_SPI_MISO" type="BiDi"/>
+        <pin num="22" name="GPIO25" type="BiDi"/>
+        <pin num="23" name="GPIO11_SPI_SCLK" type="BiDi"/>
+        <pin num="24" name="GPIO8_SPI_CE0_N" type="BiDi"/>
+        <pin num="25" name="Ground" type="power_in"/>
+        <pin num="26" name="GPIO7_SPI_CE1_N" type="BiDi"/>
+        <pin num="27" name="ID_SD" type="NotConnected"/>
+        <pin num="28" name="ID_SC" type="BiDi"/>
+        <pin num="29" name="GPIO5" type="BiDi"/>
+        <pin num="30" name="Ground" type="power_in"/>
+        <pin num="31" name="GPIO6" type="BiDi"/>
+        <pin num="32" name="GPIO12" type="BiDi"/>
+        <pin num="33" name="GPIO13" type="BiDi"/>
+        <pin num="34" name="Ground" type="power_in"/>
+        <pin num="35" name="GPIO19_PCM_LRCK" type="BiDi"/>
+        <pin num="36" name="GPIO16" type="BiDi"/>
+        <pin num="37" name="GPIO26" type="BiDi"/>
+        <pin num="38" name="GPIO20_PCM_DIN" type="BiDi"/>
+        <pin num="39" name="Ground" type="power_in"/>
+        <pin num="40" name="GPIO21_PCM_DOUT" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_pi" part="Terminal_block_2">
+      <fields>
+        <field name="Reference">TB</field>
+        <field name="Value">Terminal_block_2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_pi" part="Terminal_block_3">
+      <fields>
+        <field name="Reference">TB</field>
+        <field name="Value">Terminal_block_3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="audio_pi" part="Terminal_block_4">
+      <fields>
+        <field name="Reference">TB</field>
+        <field name="Value">Terminal_block_4</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="input"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="transistors">
+      <uri>/usr/local/share/kicad/library/transistors.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>/usr/local/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/local/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="audio">
+      <uri>/usr/local/share/kicad/library/audio.lib</uri>
+    </library>
+    <library logical="audio_pi">
+      <uri>/home/bastien/Documents/radioBox-2/kicad/audio_pi/lib/audio_pi.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="amp_left_V+">
+      <node ref="C4" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="amp_left1" pin="1"/>
+      <node ref="amp_left1" pin="5"/>
+      <node ref="D3" pin="3"/>
+    </net>
+    <net code="2" name="Net-(TB_main_input1-Pad2)">
+      <node ref="TB_main_input1" pin="2"/>
+      <node ref="TB_transfo_primary1" pin="2"/>
+    </net>
+    <net code="3" name="amp_left_V-">
+      <node ref="C18" pin="2"/>
+      <node ref="amp_left1" pin="4"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="D3" pin="1"/>
+    </net>
+    <net code="4" name="Net-(amp_right_Rin1-Pad2)">
+      <node ref="amp_right_Rin1" pin="2"/>
+      <node ref="amp_right_pot1" pin="2"/>
+    </net>
+    <net code="5" name="Net-(F1-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="TB_main_input1" pin="1"/>
+    </net>
+    <net code="6" name="Net-(K2-Pad5)">
+      <node ref="K2" pin="5"/>
+      <node ref="P2" pin="1"/>
+    </net>
+    <net code="7" name="Net-(K2-Pad12)">
+      <node ref="K2" pin="12"/>
+      <node ref="P3" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="L1" pin="1"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="9" name="amp_right_in">
+      <node ref="amp_right_pot1" pin="1"/>
+      <node ref="P3" pin="2"/>
+    </net>
+    <net code="10" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2"/>
+      <node ref="amp_right_Rin1" pin="1"/>
+      <node ref="amp_right1" pin="10"/>
+    </net>
+    <net code="11" name="amp_left_in">
+      <node ref="amp_left_pot1" pin="1"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="12" name="GPIO_relay_power">
+      <node ref="J8_1" pin="18"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="13" name="+5VD">
+      <node ref="I2C1_1" pin="1"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C34" pin="2"/>
+      <node ref="K1" pin="8"/>
+      <node ref="K2" pin="8"/>
+      <node ref="D9" pin="1"/>
+      <node ref="LED2" pin="1"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C35" pin="1"/>
+      <node ref="J8_1" pin="2"/>
+      <node ref="J8_1" pin="4"/>
+      <node ref="U5" pin="3"/>
+      <node ref="U5" pin="1"/>
+      <node ref="P4" pin="2"/>
+      <node ref="U4" pin="4"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C41" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="L1" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="U6" pin="3"/>
+    </net>
+    <net code="14" name="Net-(U3-Pad7)">
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="15" name="Net-(U3-Pad8)">
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="16" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="17" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="18" name="Net-(F1-Pad2)">
+      <node ref="TB_transfo_primary1" pin="1"/>
+      <node ref="F1" pin="2"/>
+    </net>
+    <net code="19" name="Net-(amp_left_Rin1-Pad2)">
+      <node ref="amp_left_pot1" pin="2"/>
+      <node ref="amp_left_Rin1" pin="2"/>
+    </net>
+    <net code="20" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="amp_right1" pin="8"/>
+    </net>
+    <net code="21" name="amp_right_fdbk">
+      <node ref="amp_right1" pin="3"/>
+      <node ref="amp_right_spk1" pin="1"/>
+      <node ref="amp_right_Rfdbk1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(R2-Pad1)">
+      <node ref="amp_left1" pin="8"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="23" name="amp_left_fdbk">
+      <node ref="amp_left_Rfdbk1" pin="2"/>
+      <node ref="amp_left_spk1" pin="1"/>
+      <node ref="amp_left1" pin="3"/>
+    </net>
+    <net code="24" name="Net-(C2-Pad2)">
+      <node ref="amp_left1" pin="10"/>
+      <node ref="amp_left_Rin1" pin="1"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="25" name="Net-(C31-Pad1)">
+      <node ref="U1" pin="26"/>
+      <node ref="C31" pin="1"/>
+    </net>
+    <net code="26" name="aux_in_left">
+      <node ref="K2" pin="1"/>
+      <node ref="P1" pin="1"/>
+    </net>
+    <net code="27" name="Net-(P1-Pad4)">
+      <node ref="R11" pin="1"/>
+      <node ref="P1" pin="4"/>
+    </net>
+    <net code="28" name="Net-(U1-Pad21)">
+      <node ref="U1" pin="21"/>
+      <node ref="U3" pin="14"/>
+    </net>
+    <net code="29" name="DAC_soft_mute">
+      <node ref="J8_1" pin="37"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="30" name="DAC_i2s_LRCK">
+      <node ref="J8_1" pin="35"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="31" name="DAC_i2s_DIN">
+      <node ref="J8_1" pin="40"/>
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="32" name="DAC_i2s_BCK">
+      <node ref="J8_1" pin="12"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="33" name="GPIO_aux_in">
+      <node ref="J8_1" pin="16"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="34" name="GNDD">
+      <node ref="amp_left1" pin="7"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="10"/>
+      <node ref="FAV_1" pin="2"/>
+      <node ref="U6" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="P4" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="J8_1" pin="30"/>
+      <node ref="C41" pin="2"/>
+      <node ref="PWM1_1" pin="2"/>
+      <node ref="J8_1" pin="6"/>
+      <node ref="amp_right_pot1" pin="3"/>
+      <node ref="J8_1" pin="20"/>
+      <node ref="C19" pin="2"/>
+      <node ref="J8_1" pin="14"/>
+      <node ref="C28" pin="1"/>
+      <node ref="J8_1" pin="34"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C40" pin="1"/>
+      <node ref="ONOFF_1" pin="2"/>
+      <node ref="C39" pin="1"/>
+      <node ref="U1" pin="27"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C27" pin="2"/>
+      <node ref="P1" pin="2"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U3" pin="2"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C36" pin="1"/>
+      <node ref="Q2" pin="3"/>
+      <node ref="C23" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="C24" pin="2"/>
+      <node ref="P3" pin="3"/>
+      <node ref="C34" pin="1"/>
+      <node ref="P2" pin="3"/>
+      <node ref="R11" pin="2"/>
+      <node ref="amp_left_pot1" pin="3"/>
+      <node ref="Q7" pin="3"/>
+      <node ref="amp_left_spk1" pin="2"/>
+      <node ref="I2C1_1" pin="4"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="C30" pin="1"/>
+      <node ref="U2" pin="9"/>
+      <node ref="U2" pin="8"/>
+      <node ref="amp_right1" pin="7"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="TB_transfo_secondary1" pin="2"/>
+      <node ref="U4" pin="3"/>
+      <node ref="amp_right_spk1" pin="2"/>
+      <node ref="U3" pin="15"/>
+      <node ref="U5" pin="2"/>
+      <node ref="TB_transfo_secondary1" pin="3"/>
+      <node ref="C35" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C29" pin="2"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="35" name="Net-(C9-Pad1)">
+      <node ref="C9" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="36" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="37" name="GPIO_aux_in_analog">
+      <node ref="C33" pin="2"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="38" name="+3V3">
+      <node ref="Q3" pin="1"/>
+      <node ref="Q4" pin="1"/>
+      <node ref="Q5" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U6" pin="5"/>
+      <node ref="R15" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="R17" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="39" name="+3.3VDAC">
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="28"/>
+      <node ref="C30" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U3" pin="16"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U2" pin="16"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="U5" pin="5"/>
+    </net>
+    <net code="40" name="GPIO_relay_audio">
+      <node ref="J8_1" pin="15"/>
+      <node ref="Q2" pin="2"/>
+    </net>
+    <net code="41" name="Net-(D7-Pad1)">
+      <node ref="K1" pin="5"/>
+      <node ref="D7" pin="1"/>
+      <node ref="TB_transfo_secondary1" pin="1"/>
+    </net>
+    <net code="42" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+      <node ref="U2" pin="14"/>
+    </net>
+    <net code="43" name="amp_right_V-">
+      <node ref="C28" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="amp_right1" pin="4"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="D4" pin="1"/>
+    </net>
+    <net code="44" name="Net-(C24-Pad1)">
+      <node ref="C24" pin="1"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="45" name="Net-(C26-Pad2)">
+      <node ref="C26" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="46" name="Net-(C26-Pad1)">
+      <node ref="C26" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="47" name="Net-(R8-Pad2)">
+      <node ref="U1" pin="17"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="48" name="Net-(U1-Pad25)">
+      <node ref="U3" pin="11"/>
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="49" name="Net-(U1-Pad23)">
+      <node ref="U1" pin="23"/>
+      <node ref="U3" pin="12"/>
+    </net>
+    <net code="50" name="Net-(U1-Pad22)">
+      <node ref="U3" pin="13"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="51" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="52" name="DAC_SPI_select">
+      <node ref="J8_1" pin="24"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="53" name="Net-(U1-Pad12)">
+      <node ref="U2" pin="13"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="54" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="55" name="Net-(R6-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="56" name="DAC_out_left">
+      <node ref="R6" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="K2" pin="3"/>
+    </net>
+    <net code="57" name="Net-(D3-Pad2)">
+      <node ref="TB_transfo_secondary1" pin="4"/>
+      <node ref="D4" pin="2"/>
+      <node ref="D3" pin="2"/>
+      <node ref="D6" pin="1"/>
+    </net>
+    <net code="58" name="Net-(D3-Pad4)">
+      <node ref="D3" pin="4"/>
+      <node ref="K1" pin="1"/>
+      <node ref="D4" pin="4"/>
+    </net>
+    <net code="59" name="Net-(C10-Pad1)">
+      <node ref="amp_right1" pin="9"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="amp_right_Rfdbk1" pin="1"/>
+    </net>
+    <net code="60" name="Net-(U5-Pad4)">
+      <node ref="U5" pin="4"/>
+    </net>
+    <net code="61" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="62" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="63" name="Net-(U1-Pad24)">
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="64" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="65" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="66" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="67" name="amp_right_V+">
+      <node ref="amp_right1" pin="1"/>
+      <node ref="amp_right1" pin="5"/>
+      <node ref="D4" pin="3"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C29" pin="1"/>
+    </net>
+    <net code="68" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="amp_left_Rfdbk1" pin="1"/>
+      <node ref="amp_left1" pin="9"/>
+    </net>
+    <net code="69" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="70" name="Net-(U2-Pad7)">
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="71" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="72" name="Net-(U2-Pad15)">
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="73" name="aux_in_right">
+      <node ref="K2" pin="16"/>
+      <node ref="P1" pin="3"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="74" name="Net-(D9-Pad2)">
+      <node ref="D9" pin="2"/>
+      <node ref="K2" pin="9"/>
+      <node ref="Q2" pin="1"/>
+    </net>
+    <net code="75" name="Net-(K1-Pad3)">
+      <node ref="K1" pin="3"/>
+    </net>
+    <net code="76" name="DAC_out_right">
+      <node ref="K2" pin="14"/>
+      <node ref="C20" pin="2"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="77" name="Net-(D5-Pad2)">
+      <node ref="D5" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="K1" pin="9"/>
+    </net>
+    <net code="78" name="Net-(C32-Pad1)">
+      <node ref="U4" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="D7" pin="2"/>
+      <node ref="C32" pin="1"/>
+    </net>
+    <net code="79" name="GNDPWR">
+      <node ref="TB_chassis_earth1" pin="2"/>
+      <node ref="TB_main_input1" pin="3"/>
+      <node ref="C17" pin="1"/>
+      <node ref="D2" pin="1"/>
+      <node ref="TB_chassis_earth1" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="80" name="input_switch_favorite">
+      <node ref="J8_1" pin="31"/>
+      <node ref="FAV_1" pin="1"/>
+    </net>
+    <net code="81" name="GPIO_PWM1">
+      <node ref="PWM1_1" pin="1"/>
+      <node ref="J8_1" pin="33"/>
+    </net>
+    <net code="82" name="LED_PWM0">
+      <node ref="J8_1" pin="32"/>
+      <node ref="Q7" pin="2"/>
+    </net>
+    <net code="83" name="Net-(LED2-Pad2)">
+      <node ref="Q7" pin="1"/>
+      <node ref="LED2" pin="2"/>
+    </net>
+    <net code="84" name="GPIO17">
+      <node ref="J8_1" pin="11"/>
+    </net>
+    <net code="85" name="GPIO27">
+      <node ref="J8_1" pin="13"/>
+    </net>
+    <net code="86" name="GPIO16_status_led">
+      <node ref="J8_1" pin="36"/>
+    </net>
+    <net code="87" name="GPIO25">
+      <node ref="J8_1" pin="22"/>
+    </net>
+    <net code="88" name="LED_DEFAULT_ON">
+      <node ref="J8_1" pin="7"/>
+    </net>
+    <net code="89" name="Net-(I2C1_1-Pad3)">
+      <node ref="I2C1_1" pin="3"/>
+      <node ref="J8_1" pin="3"/>
+    </net>
+    <net code="90" name="Net-(I2C1_1-Pad2)">
+      <node ref="J8_1" pin="5"/>
+      <node ref="I2C1_1" pin="2"/>
+    </net>
+    <net code="91" name="input_switch_onoff">
+      <node ref="ONOFF_1" pin="1"/>
+      <node ref="J8_1" pin="29"/>
+    </net>
+    <net code="92" name="DAC_SPI_MISO">
+      <node ref="J8_1" pin="21"/>
+    </net>
+    <net code="93" name="Net-(U6-Pad4)">
+      <node ref="U6" pin="4"/>
+    </net>
+    <net code="94" name="Net-(P4-Pad5)">
+      <node ref="R16" pin="1"/>
+      <node ref="P4" pin="5"/>
+      <node ref="Q5" pin="3"/>
+    </net>
+    <net code="95" name="DAC_SPI_CLK">
+      <node ref="U2" pin="4"/>
+      <node ref="R17" pin="1"/>
+      <node ref="J8_1" pin="23"/>
+      <node ref="Q5" pin="2"/>
+    </net>
+    <net code="96" name="Net-(P4-Pad4)">
+      <node ref="Q4" pin="3"/>
+      <node ref="R14" pin="1"/>
+      <node ref="P4" pin="4"/>
+    </net>
+    <net code="97" name="screen_SPI_CE">
+      <node ref="Q4" pin="2"/>
+      <node ref="J8_1" pin="26"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="98" name="Net-(P4-Pad3)">
+      <node ref="R12" pin="1"/>
+      <node ref="Q3" pin="3"/>
+      <node ref="P4" pin="3"/>
+    </net>
+    <net code="99" name="screen_SPI_MOSI">
+      <node ref="J8_1" pin="19"/>
+      <node ref="R13" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="Q3" pin="2"/>
+    </net>
+    <net code="100" name="Net-(J8_1-Pad39)">
+      <node ref="J8_1" pin="39"/>
+    </net>
+    <net code="101" name="Net-(J8_1-Pad38)">
+      <node ref="J8_1" pin="38"/>
+    </net>
+    <net code="102" name="Net-(J8_1-Pad28)">
+      <node ref="J8_1" pin="28"/>
+    </net>
+    <net code="103" name="Net-(J8_1-Pad27)">
+      <node ref="J8_1" pin="27"/>
+    </net>
+    <net code="104" name="Net-(J8_1-Pad17)">
+      <node ref="J8_1" pin="17"/>
+    </net>
+    <net code="105" name="Net-(J8_1-Pad10)">
+      <node ref="J8_1" pin="10"/>
+    </net>
+    <net code="106" name="Net-(J8_1-Pad9)">
+      <node ref="J8_1" pin="9"/>
+    </net>
+    <net code="107" name="Net-(J8_1-Pad8)">
+      <node ref="J8_1" pin="8"/>
+    </net>
+    <net code="108" name="Net-(J8_1-Pad1)">
+      <node ref="J8_1" pin="1"/>
+    </net>
+    <net code="109" name="Net-(J8_1-Pad25)">
+      <node ref="J8_1" pin="25"/>
+    </net>
+  </nets>
+</export>
